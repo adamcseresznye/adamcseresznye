@@ -10,12 +10,10 @@ class Introduction:
 
     def __init__(self):
         self.name = "Adam Cseresznye"
-        self.current_role = "PhD candidate"
-        self.future_role = "Data Scientist"
         self.hobbies = ["playing with my cat", "running", "photography", "writing code that sometimes works"]
 
     def say_hi(self):
-        print(f"👋 Hi, I'm {self.name}! Currently a {self.current_role} but soon to be a {self.future_role}.")
+        print(f"👋 Hi, I'm {self.name}!")
         print("Hobbies include: " + ", ".join(self.hobbies))
         print("Thanks for dropping by, hope you find some of my work interesting!")
 
